@@ -1,5 +1,5 @@
 body {
-	background-color: maroon;
+	/*background-color: maroon;*/
 	/*text-align: center;*/
 	margin-right: 25%;
 	margin-left: 25%;
@@ -12,3 +12,44 @@ h1 {
 p {
 	border-right: solid gray;
 }
+
+a {
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: orange;
+}
+
+#second {
+	/*color: green;*/
+	font-weight: 600;
+	text-decoration: overline;
+	/*padding-top: 10px;*/
+}
+
+.big {
+	font-weight: bold;
+}
+
+/*Copy and pasted this code from HCD*/
+
+div {
+	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+	display: inline-block;
+	margin: 20px;
+}
+
+#name {
+	background: red;
+}
+
+#hex {
+	background: #0707E6;
+}
+
+#rgb {
+	background: rgb(255,242,26);
